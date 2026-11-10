@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm - Shokz OpenDots Air</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .product-container {
+            max-width: 600px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin: auto;
+        }
+        .brand {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .rating {
+            color: #ff9800;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .price-section {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .current-price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #d32f2f;
+        }
+        .original-price {
+            font-size: 16px;
+            color: #888;
+            text-decoration: line-through;
+        }
+        .shipping-badge {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 13px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        .options-section {
+            margin-bottom: 20px;
+        }
+        .color-options {
+            display: flex;
+            gap: 10px;
+            margin-top: 5px;
+        }
+        .color-btn {
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+            background: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .color-btn.active {
+            border-color: #1976d2;
+            color: #1976d2;
+            font-weight: bold;
+        }
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .btn-cart, .btn-buy {
+            flex: 1;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .btn-cart {
+            background-color: #fff;
+            border: 1px solid #1976d2;
+            color: #1976d2;
+        }
+        .btn-buy {
+            background-color: #1976d2;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="product-container">
+    <div class="brand">SHOKZ 브랜드샵</div>
+    <div class="product-title">Shokz OpenDots Air E210 Tai nghe Bluetooth mở tai kèm khăn lau</div>
+    
+    <div class="rating">
+        ★ 4.9 (122 đánh giá) • Hơn 100 người đã hài lòng
+    </div>
+    
+    <div class="price-section">
+        <span class="current-price">179,100원</span>
+        <span class="original-price">199,000원</span>
+    </div>
+
+    <div class="shipping-badge">
+        ✓ Ngày mai nhận hàng, Miễn phí vận chuyển
+    </div>
+
+    <div class="options-section">
+        <label>Màu sắc:</label>
+        <div class="color-options">
+            <button class="color-btn active">Daybreak Purple - PR</button>
+            <button class="color-btn">Black - BK</button>
+        </div>
+    </div>
+
+    <div class="action-buttons">
+        <button class="btn-cart">Giỏ hàng</button>
+        <button class="btn-buy">Mua ngay > </button>
+    </div>
+</div>
+
+</body>
+</html>
